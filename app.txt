@@ -1,0 +1,21 @@
+const tree = {
+  left: {
+    left: "apple",
+    right: {
+      left: null,
+      right: {
+        left: null,
+        right: null,
+      },
+    },
+  },
+  right: {
+    left: "apple",
+    right: {
+      left: null,
+      right: "apple",
+    },
+  },
+};
+
+function countNumberOfApples() {}

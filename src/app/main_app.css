@@ -1,0 +1,271 @@
+.main_container{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .hero_section{
+    padding: 0 50px;
+} */
+.nav_bg{
+  background-color: #0a192f;
+}
+ .my_img{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+ }
+ .my_img:hover{
+    transform: scale(1.2);
+ }
+ 
+.hero_section_box1{
+    background: #0098FF33;
+    width: 50%;
+    padding: 50px;
+    border-radius: 12px;
+}
+.hero_section_box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+.sidebar-items .icon {
+  width: 20px;
+  height: 20px;
+}
+.sidebar-items {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  transition: width 0.3s;
+  width: 50px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.sidebar-items.linkedin {
+  border-radius: 8px;
+  background-color: #0077b5;
+}
+.sidebar-items.email {
+  border-radius: 8px;
+  background-color: #00a2ed;
+}
+.sidebar-items.github {
+  border-radius: 8px;
+  background-color: #333333;
+}
+.sidebar-items.profile {
+  border-radius: 8px;
+  background-color: #4CAF50;
+}
+
+.sidebar-items .tooltip {
+  margin-left: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.sidebar-items:hover {
+  width: 150px;
+}
+
+.sidebar-items:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+.hero_section_box1 h2{
+        font-family: "Questrial", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 50px;
+}
+.hero_section_box1 p{
+    font-family: "Questrial", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-style: normal;
+        color: white;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-bottom: 12px;
+}
+.css-button-gradient--5 {
+    max-width: 280px;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg, #000428 0%, #004e92 75%);
+  }
+  .css-button-gradient--5:hover {
+    background-position: right center;
+    transform: scale(1.2);
+  }
+  .css-button-gradient--5:active {
+    top: 2px;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: #0d1b2a; */
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    transition: width 0.3s;
+    width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .sidebar-item .icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .sidebar-item .tooltip {
+    margin-left: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  .sidebar-item:hover {
+    width: 150px;
+  }
+  
+  .sidebar-item:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .sidebar-item.linkedin {
+    background-color: #0077b5; /* LinkedIn blue */
+  }
+  
+  .sidebar-item.github {
+    background-color: #333333; /* GitHub black */
+  }
+  
+  .sidebar-item.email {
+    background-color: #00a2ed; /* Email blue */
+  }
+  
+  .sidebar-item.profile {
+    background-color: #4CAF50; /* Profile green */
+  }
+  
+  .sidebar-item.linkedin:hover {
+    border-radius: 10px;
+    background-color: #005582;
+    
+  }
+  
+  .sidebar-item.github:hover {
+    background-color: #222222;
+  }
+  
+  .sidebar-item.email:hover {
+    border-radius: 10px;
+    background-color: #0080bf;
+  }
+  
+  .sidebar-item.profile:hover {
+    background-color: #388e3c;
+  }
+  /* Abi=ut ME */
+  .aboutus_heading{
+    color: white;
+    border-bottom: solid 4px #db2777;
+    text-align: left;
+    font-size: 30px;
+    width: 170px;
+    font-weight: 600;  
+  }
+  .skills_heading{
+    color: white;
+    border-bottom: solid 4px #db2777;
+    text-align: left;
+    font-size: 30px;
+    width: 80px;
+    font-weight: 600;  
+  }
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it appears above other content */
+  }
+  #mobile-menu.hidden {
+    display: none;
+  }
+  .sidebars {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 25px;
+    justify-content: center;
+}
+
+@media screen and (max-width:640px) {
+  .sidebar {
+    display: none;
+  }
+  
+}
